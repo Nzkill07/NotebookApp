@@ -25,6 +25,7 @@ class Note:
 
 
 class Notebook:
+
     def __init__(self):
         self.notes: Dict[int, Note] = {}
 
